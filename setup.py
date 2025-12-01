@@ -49,7 +49,7 @@ setup(
         "requests"
     ],
     zip_safe=True,
-    entry_points={"console_scripts": [f"{NAME}=main:main"]},
+    entry_points={"console_scripts": [f"{NAME}=main:main2"]},
     # entry_points={"console_scripts": [f"{NAME}={NAME}.main:main", f"dosa={NAME}.batch:batch"]},
     package_data={NAME: ["**/*.json"]},
 
